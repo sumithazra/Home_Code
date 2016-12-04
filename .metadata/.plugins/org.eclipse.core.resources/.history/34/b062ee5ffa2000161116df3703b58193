@@ -1,0 +1,44 @@
+package linkedlist;
+
+public class MeargeSortOnLinkedList {
+
+}
+
+class LinkedListM {
+
+	Node head;
+	class Node {
+
+		int data;
+		Node next;
+
+		
+		Node(int data)
+		{
+			this.data=data;
+			next=null;
+		}
+		
+		
+				
+	}
+	
+	void insert(int data)
+	{
+		if(head==null)
+		{
+			head=new Node(data);
+			
+		}
+		else
+		{
+			Node temp=new Node(data);
+			head.next=temp;
+			
+		}
+	}
+	
+	
+
+
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>BankingApplication</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>view_details</display-name>
+    <servlet-name>view_details</servlet-name>
+    <servlet-class>view_details</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>view_details</servlet-name>
+    <url-pattern>/view_details</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>verify_new_userconn</display-name>
+    <servlet-name>verify_new_userconn</servlet-name>
+    <servlet-class>verify_new_userconn</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>verify_new_userconn</servlet-name>
+    <url-pattern>/verify_new_userconn</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>store_conn</display-name>
+    <servlet-name>store_conn</servlet-name>
+    <servlet-class>store_conn</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>store_conn</servlet-name>
+    <url-pattern>/store_conn</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <description></description>
+    <display-name>fixed_deposits_conn</display-name>
+    <servlet-name>fixed_deposits_conn</servlet-name>
+    <servlet-class>fixed_deposits_conn</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>fixed_deposits_conn</servlet-name>
+    <url-pattern>/fixed_deposits_conn</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>customer_login_conn</display-name>
+    <servlet-name>customer_login_conn</servlet-name>
+    <servlet-class>customer_login_conn</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>customer_login_conn</servlet-name>
+    <url-pattern>/customer_login_conn</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>bill_payment_con</display-name>
+    <servlet-name>bill_payment_con</servlet-name>
+    <servlet-class>bill_payment_con</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>bill_payment_con</servlet-name>
+    <url-pattern>/bill_payment_con</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <description></description>
+    <display-name>LoginBoth</display-name>
+    <servlet-name>LoginBoth</servlet-name>
+    <servlet-class>controller.LoginBoth</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginBoth</servlet-name>
+    <url-pattern>/LoginBoth</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <description></description>
+    <display-name>CustomerRegistration</display-name>
+    <servlet-name>CustomerRegistration</servlet-name>
+    <servlet-class>controller.CustomerRegistration</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CustomerRegistration</servlet-name>
+    <url-pattern>/Customer</url-pattern>
+  </servlet-mapping>
+
+</web-app>

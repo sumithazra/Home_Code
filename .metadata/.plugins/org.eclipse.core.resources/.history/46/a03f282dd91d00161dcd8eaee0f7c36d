@@ -1,0 +1,5 @@
+package iterator;
+
+public enum MobileOSType {
+ ANDROID, WINDOWS, FEATURE, BADA;
+}

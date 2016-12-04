@@ -1,0 +1,20 @@
+package stringExp;
+
+public class TryString {
+public static void main(String[] args) {
+	String str="0123456789";
+	int length=str.length();
+	System.out.println(length);
+	
+	System.out.println(str.substring(0));
+	System.out.println(str.substring(5,9));
+	
+	String str1="0273gsy s0";
+	
+	System.out.println(str1.charAt(6));
+	
+	
+}
+}
+
+

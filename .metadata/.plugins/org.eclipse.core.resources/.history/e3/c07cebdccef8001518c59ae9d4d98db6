@@ -1,0 +1,24 @@
+package threadLab;
+
+import java.io.IOException;
+
+public class Runtimer {
+
+	public static void main(String[] args) {
+		  try {
+			//Runtime.getRuntime().exec("notepad");//will open a new notepad  
+			  Runtime r=Runtime.getRuntime();
+			int i=r.availableProcessors();//singleton class 
+			System.out.println(i);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+		  
+		final  String[] array={"One", "Two"};
+            array[0]="three";
+            System.out.println(array[0]);
+	}
+
+}

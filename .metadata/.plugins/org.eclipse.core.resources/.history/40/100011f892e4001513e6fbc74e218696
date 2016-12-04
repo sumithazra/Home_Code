@@ -1,0 +1,53 @@
+package exceptionlab;
+
+import java.util.*;
+
+public class CustomExceptionTest {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Eenter your age ");
+		int age = sc.nextInt();
+		System.out.println(Validate(age));
+
+	}
+
+	public static int Validate(int age) 
+	{
+
+		if(age<18)
+		{
+			try{	
+				throw new InvalidAgeException("you are not eligeable");
+
+			}
+			catch(Exception inv)
+			{
+
+				inv.printStackTrace();	
+
+			}
+			finally{
+
+				return (18-age);
+			}
+
+		}
+		else
+		{
+			
+			return (age-18);
+		}
+
+		
+
+	}
+}
+
+class InvalidAgeException extends Exception {
+	public InvalidAgeException(String message) {
+		super(message);
+	}
+
+}

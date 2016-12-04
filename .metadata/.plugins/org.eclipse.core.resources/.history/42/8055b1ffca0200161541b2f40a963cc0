@@ -1,0 +1,97 @@
+package stringExp;
+
+public class StringProgram {
+
+	static{
+		
+    	System.out.println("Inside static block");
+    	
+	}
+	{
+		System.out.println("Inside anonomiuys  block");
+	}
+	public static int slowLength(String myString) {
+	    int i = 0;
+	    try {
+	        while (true) {
+	            myString.charAt(i);
+	            i++;
+	        }
+	      
+	    } catch (ArithmeticException e) {
+	    	System.out.println("Inside catch block");
+	    	return i;
+	    }
+	    catch(IndexOutOfBoundsException e)
+	    {
+	    	System.out.println("Inside catch block");
+	    	return i;
+	    }
+	    catch(Throwable e)
+	    {
+	    	System.out.println("Inside catch block");
+	    	return i;
+	    }
+	    finally{
+	    	System.out.println("Inside finally bolck");
+	    }
+	    
+	}
+	
+	
+	public static void stringReverse(String str)
+	{
+		char[] charArray=str.toCharArray();
+		int length=charArray.length;
+		int start=0;
+		int end=length-1;
+		while(start<end)
+		{
+			char temp=charArray[start];
+			charArray[start]=charArray[end];
+			charArray[end]=temp;
+			
+			start++;
+			end--;
+		}
+				
+	System.out.println("reverse String is :" );
+	for(int j=0; j<length; j++)
+	{
+		System.out.print(charArray[j]);
+	}
+	
+	}
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+		String str="You can use a loop to check every character position"
+				+ " and"
+				+ " catch the IndexOutOfBoundsException when you pass the last character";
+		
+		
+		System.out.println("The length of the string is ::" + StringProgram.slowLength(str) );
+		
+		
+		System.out.println("*******************************************************");
+		
+		StringProgram.stringReverse(str);
+		
+		String str1="Oracle India , Informatica, Morgan Stanley.";
+		
+		String[] str2=str1.split("");
+		System.out.println("");
+		/*for(String str3:str2)
+		{
+			
+			System.out.print(str3);
+		}*/
+		
+		System.out.println(str2[0]);
+		
+	}
+}

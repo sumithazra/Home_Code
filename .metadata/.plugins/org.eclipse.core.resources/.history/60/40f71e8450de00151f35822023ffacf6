@@ -1,0 +1,28 @@
+package collection;
+import java.util.*;
+import java.util.Map.Entry;
+
+public class ConurrentModificationIterationTest {
+
+	public static void main(String[] args) {
+		Map<Integer, String> hs=new HashMap<Integer, String>();
+		hs.put(11, "Spring Aop");
+		hs.put(22,"Spring Ioc");
+		hs.put(33, "Spring MVC");
+		
+	Set<Entry<Integer, String>> es= hs.entrySet();
+	
+	Iterator<Entry<Integer, String>> it=es.iterator();
+	
+	while(it.hasNext())
+	{
+		System.out.println(it.next().getKey() + " "+ it.next().getValue());
+		
+		
+	}
+	
+	
+
+	}
+
+}

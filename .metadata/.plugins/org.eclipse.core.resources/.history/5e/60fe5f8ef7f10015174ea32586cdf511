@@ -1,0 +1,37 @@
+package stringExp;
+
+public class StringProgram {
+
+	public static int slowLength(String myString) {
+	    int i = 0;
+	    try {
+	        while (true) {
+	            myString.charAt(i);
+	            i++;
+	        }
+	        
+	    } catch (ArithmeticException e) {
+	    	System.out.println("Inside catch block");
+	    	return i;
+	    }
+	    catch(IndexOutOfBoundsException e)
+	    {
+	    	System.out.println("Inside catch block");
+	    	return i;
+	    }
+	    finally{
+	    	System.out.println("Inside finally bolck");
+	    }
+	    
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		String str="You can use a loop to check every character position"
+				+ " and"
+				+ " catch the IndexOutOfBoundsException when you pass the last character";
+		
+		System.out.println("The length of the string is ::" + StringProgram.slowLength(str) );
+	}
+}

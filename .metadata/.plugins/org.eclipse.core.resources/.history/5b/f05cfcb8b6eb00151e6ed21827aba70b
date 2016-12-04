@@ -1,0 +1,357 @@
+package tree;
+
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.Stack;
+
+/**
+ * Created by ARPITHA RAO on 04-02-2016.
+ */
+public class BinaryTree {
+    public static class TreeNode {
+        int data;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode(int data) {
+            this.data = data;
+        }
+    }
+
+        public TreeNode recursivePreOrder(TreeNode root){
+            if(root!= null){
+                System.out.print(root.data + " ");
+                recursivePreOrder(root.left);
+                recursivePreOrder(root.right);
+
+            }
+           return root;
+        }
+
+        public void PreOrderIter(TreeNode root){
+
+            if(root== null) return;
+
+            Stack<TreeNode> newStack = new Stack<>();
+
+            if(root!= null) newStack.push(root);
+
+            while(!newStack.empty()){
+
+                TreeNode n = newStack.pop();
+                System.out.print(n.data + " ");
+
+                if(n.right!= null) newStack.push(n.right);
+
+                if(n.left != null) newStack.push(n.left);
+
+            }
+
+        }
+
+    public static TreeNode postOrderrecursive(TreeNode root){
+        Stack<TreeNode> newStack = new Stack<>();
+        if(root!= null)
+            if(root!= null) newStack.push(root);
+
+            while(!newStack.empty()){
+                TreeNode n = newStack.pop();
+            if(n.left != null) postOrderrecursive(root.left);
+            if(n.right!= null) postOrderrecursive(root.right);
+                System.out.print(n.data + " ");
+
+        }
+        return root;
+    }
+
+    public static void PostOrderIter(TreeNode root){
+
+      if(root==null) return;
+
+        Stack<TreeNode> s = new Stack<>();
+        TreeNode current = root;
+
+        while(true){
+            if(current != null){
+                if(current.right != null)
+                    s.push(current.right);
+                s.push(current);
+                current = current.left;
+                continue;
+
+            }
+            if(s.isEmpty()) return;
+                current = s.pop();
+            if(current.right!= null && !s.isEmpty() && current.right == s.peek() ){
+                s.pop();
+                s.push(current);
+                current = current.right;
+
+            }  else {
+                System.out.print(current.data+" ");
+                current=null;
+            }
+        }
+    }
+
+    public static TreeNode InOrderRecursive(TreeNode root){
+        if(root == null) return null;
+
+        InOrderRecursive(root.left);
+        System.out.print(root.data+" ");
+        InOrderRecursive(root.right);
+
+        return root;
+
+    }
+
+    public static void InOrderIter(TreeNode root){
+        if(root== null) return;
+
+        Stack<TreeNode> s = new Stack<>();
+        TreeNode current = root;
+
+        while(!s.isEmpty() || current!= null){
+            if(current!= null) {
+                s.push(current);
+                current = current.left;
+            }
+            else {
+                TreeNode n = s.pop();
+                System.out.printf("%d ",n.data);
+                current = n.right;
+            }
+        }
+
+    }
+
+    public static void LevelOrderTraversal(TreeNode startNode){
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(startNode);
+
+        while (!queue.isEmpty()){
+            TreeNode temp = queue.poll();
+            System.out.print(temp.data+" ");
+            if(temp.left!= null) queue.add(temp.left);
+            if(temp.right!= null) queue.add(temp.right);
+
+        }
+    }
+
+    public static void SpiralOrZigzagTravrsal(TreeNode root) {
+        if (root == null) return;
+        Stack<TreeNode> s = new Stack<>();
+        s.push(root);
+        boolean directionflag = false;
+
+        while (!s.isEmpty()) {
+            Stack<TreeNode> temp = new Stack<>();
+
+            while (!s.isEmpty()) {
+                TreeNode n = s.pop();
+                System.out.print(n.data+" ");
+
+                if (!directionflag) {
+                    if (n.left != null) {
+                        temp.push(n.left);
+                    }
+                    if (n.right != null) {
+                        temp.push(n.right);
+                    }
+
+                } else {
+
+                    if (n.right != null) {
+                        temp.push(n.right);
+                    }
+                    if (n.left != null) {
+                        temp.push(n.left);
+                    }
+                }
+            }
+            directionflag = !directionflag;
+            s = temp;
+        }
+    }
+
+    public static void PrintLeafNodes(TreeNode root){
+        if(root == null) return;
+        if(root.right == null && root.left == null){
+            System.out.print(root.data+" ");
+        }
+        PrintLeafNodes(root.left);
+        PrintLeafNodes(root.right);
+    }
+
+    public static int getLeafCountofBinaryTree(TreeNode node){
+        if(node == null)
+            return 0;
+        if(node.left ==null && node.right==null)
+            return 1;
+        else
+            return getLeafCountofBinaryTree(node.left)+ getLeafCountofBinaryTree(node.right);
+
+    }
+
+    public static void PrintAllPathtoLeaves(TreeNode node, int[] path, int length){
+        if(node == null) return;
+
+        path[length] = node.data;
+        length++;
+
+        if(node.left== null && node.right == null){
+                for (int i = 0; i < length; i++) {
+                    System.out.print(" "+path[i]);
+                }
+                System.out.println();
+
+            }
+            PrintAllPathtoLeaves(node.left, path, length);
+            PrintAllPathtoLeaves(node.right, path, length);
+        }
+
+    public static int LevelofNode(TreeNode node, int key, int level){
+        if(node == null) return 0;
+
+        if(node.data == key) return level;
+        int result = LevelofNode(node.left, key, level+1);
+
+        if(result != 0) return result;
+
+        result = LevelofNode(node.right, key, level + 1);
+        return result;
+
+    }
+    static int max_level = 0;
+
+   public static void rightviewofTree(TreeNode root, int level){
+       if(root == null) return;
+       if(max_level >= level){
+           System.out.print(" "+root.data);
+           max_level = level;
+       }
+       rightviewofTree(root.right, level + 1);
+       rightviewofTree(root.left, level + 1);
+
+   }
+
+
+
+
+    public static void leftviewofTree(TreeNode root, int level){
+
+        if(root== null) return;
+        if(max_level < level){
+            System.out.print(" "+root.data);
+            max_level = level;
+        }
+        leftviewofTree(root.left, level + 1);
+        leftviewofTree(root.right, level + 1);
+
+    }
+        public static void main(String args[]){
+
+            BinaryTree bt = new BinaryTree();
+            TreeNode root = createBinaryTree();
+            System.out.println("PreOrder Recursive Solution");
+            bt.recursivePreOrder(root);
+            System.out.println();
+            System.out.println("--------------------------------");
+            System.out.println("PreOrder Iterative Solution");
+            bt.PreOrderIter(root);
+
+
+            System.out.println();
+            System.out.println("--------------------------------");
+            System.out.println();
+
+
+            System.out.println("PostOrder Recursive Solution");
+            bt.postOrderrecursive(root);
+            System.out.println();
+            System.out.println("--------------------------------");
+            System.out.println("PostOrder Iterative Solution");
+            bt.PostOrderIter(root);
+
+            System.out.println();
+            System.out.println("--------------------------------");
+            System.out.println();
+
+
+            System.out.println("InOrder Recursive Solution");
+            bt.InOrderRecursive(root);
+            System.out.println();
+            System.out.println("--------------------------------");
+            System.out.println("InOrder Iterative Solution");
+            bt.InOrderIter(root);
+
+            System.out.println();
+            System.out.println("--------------------------------");
+            System.out.println();
+
+
+            System.out.println("Level Order Traversal");
+            bt.LevelOrderTraversal(root);
+            System.out.println();
+
+            System.out.println();
+            System.out.println("--------------------------------");
+            System.out.println();
+
+
+            System.out.println("Spiral or Zigzag Traversal");
+            bt.SpiralOrZigzagTravrsal(root);
+            System.out.println();
+
+            System.out.println();
+            System.out.println("--------------------------------");
+            System.out.println();
+
+
+            System.out.println("Printing Leaf Nodes");
+            bt.PrintLeafNodes(root);
+            System.out.println();
+
+            System.out.println();
+            System.out.println("--------------------------------");
+            System.out.println();
+
+            System.out.println("Number of Nodes in the binary tree "+bt.getLeafCountofBinaryTree(root));
+
+
+            System.out.println();
+            System.out.println("--------------------------------");
+            System.out.println();
+
+            System.out.println("All paths to leaves: ");
+            bt.PrintAllPathtoLeaves(root, new int[1000], 0);
+
+            System.out.println("Level of Node in the binary tree " + bt.LevelofNode(root, 60, 1));
+
+            leftviewofTree(root, 1);
+            rightviewofTree(root, 1);
+
+            }
+
+        public static TreeNode createBinaryTree(){
+            TreeNode root = new TreeNode(40);
+            TreeNode node10 = new TreeNode(10);
+            TreeNode node20 = new TreeNode(20);
+            TreeNode node30 = new TreeNode(30);
+            TreeNode node50 = new TreeNode(50);
+            TreeNode node60 = new TreeNode(60);
+            TreeNode node70 = new TreeNode(70);
+
+            root.left = node20;
+            root.right = node60;
+
+            node20.left = node10;
+            node20.right = node30;
+
+            node60.left = node50;
+            node60.right = node70;
+
+            return root;
+
+        }
+   }

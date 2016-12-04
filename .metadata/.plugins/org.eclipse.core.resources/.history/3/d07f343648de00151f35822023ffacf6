@@ -1,0 +1,11 @@
+package collection;
+import java.util.*;
+
+public class ConurrentModificationIterationTest {
+
+	public static void main(String[] args) {
+		Map<Integer, String> hs=new HashMap<Integer, String>();
+
+	}
+
+}

@@ -1,0 +1,27 @@
+import java.io.IOException;
+
+
+public class HelloWorld {
+
+	public void show() throws IOException
+	{System.out.println("Hi");}
+	public static void main(String[] args) {
+		  
+		System.out.println("Hello world");
+		Long n =new Long("10");
+		Short s=new Short("10");
+		
+		
+		if(n.equals(s))
+		{
+			System.out.println("same object");
+			
+		}
+		
+		
+		
+		
+
+	}
+
+}

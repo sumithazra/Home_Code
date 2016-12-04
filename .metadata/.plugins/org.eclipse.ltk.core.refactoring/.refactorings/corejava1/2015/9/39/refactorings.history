@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;corejava1.SingeltonCloneTest.java&apos; to &apos;SingletonCloneTest.java&apos;&#x0D;&#x0A;- Original project: &apos;corejava1&apos;&#x0D;&#x0A;- Original element: &apos;corejava1.SingeltonCloneTest.java&apos;&#x0D;&#x0A;- Renamed element: &apos;corejava1.SingletonCloneTest.java&apos;" description="Rename compilation unit &apos;SingeltonCloneTest.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;corejava1{SingeltonCloneTest.java" name="SingletonCloneTest.java" references="false" stamp="1442770383544" version="1.0"/>
+</session>
