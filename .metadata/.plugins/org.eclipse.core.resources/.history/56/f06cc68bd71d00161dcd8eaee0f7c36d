@@ -1,8 +1,0 @@
-package iterator;
-
-public interface MobileIterator {
-
-	
-	public void hasNext();
-	public void next();
-}

@@ -1,9 +1,0 @@
-
-public class TestArraySpecial {
-	public static void main(String[] args) {
-		int arr[] = new int[128];
-		arr['a']++;
-		System.out.println(arr);
-		
-	}
-}

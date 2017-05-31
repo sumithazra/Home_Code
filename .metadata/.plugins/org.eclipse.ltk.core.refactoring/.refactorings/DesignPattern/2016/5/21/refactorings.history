@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;iterator.MobileType&apos; to &apos;MobileOSType&apos;&#x0D;&#x0A;- Original project: &apos;DesignPattern&apos;&#x0D;&#x0A;- Original element: &apos;iterator.MobileType&apos;&#x0D;&#x0A;- Renamed element: &apos;iterator.MobileOSType&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MobileType&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;iterator{MobileType.java[MobileType" matchStrategy="1" name="MobileOSType" qualified="false" references="true" similarDeclarations="false" stamp="1463670808324" textual="false" version="1.0"/>
-</session>

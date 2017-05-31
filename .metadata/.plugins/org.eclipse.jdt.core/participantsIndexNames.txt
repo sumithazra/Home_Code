@@ -1,7 +1,0 @@
-INDEX VERSION 1.127
-C:\Users\hp\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\385564534.index
-\ExperimentalWebComponentTest\src
-C:\Users\hp\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2830615768.index
-\HelloWorld\src
-C:\Users\hp\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2985137596.index
-\bankingapplication 2\src
