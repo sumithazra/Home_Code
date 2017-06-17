@@ -1,4 +1,4 @@
-package com.interview.sort;
+package sort;
 
 /**
  * Date 04/03/2015

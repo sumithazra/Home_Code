@@ -1,4 +1,4 @@
-package com.interview.multithreaded;
+package multithreaded;
 
 import com.google.common.collect.Lists;
 

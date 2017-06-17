@@ -1,4 +1,4 @@
-package com.interview.number;
+package number;
 
 /**
  * http://saikatd.wordpress.com/author/saikatd/page/4/

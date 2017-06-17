@@ -1,4 +1,4 @@
-package com.interview.misc;
+package misc;
 
 import java.util.ArrayList;
 import java.util.List;

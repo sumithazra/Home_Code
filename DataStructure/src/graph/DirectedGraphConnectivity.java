@@ -1,4 +1,4 @@
-package com.interview.graph;
+package graph;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

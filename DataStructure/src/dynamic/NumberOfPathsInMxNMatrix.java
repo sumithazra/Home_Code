@@ -1,4 +1,4 @@
-package com.interview.dynamic;
+package dynamic;
 
 /**
  * http://www.geeksforgeeks.org/count-possible-paths-top-left-bottom-right-nxm-matrix/

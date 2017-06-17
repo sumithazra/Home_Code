@@ -1,4 +1,4 @@
-package com.interview.tree;
+package tree;
 
 /**
  * http://www.careercup.com/question?id=6241652616200192

@@ -1,4 +1,4 @@
-package com.interview.multithreaded;
+package multithreaded;
 
 /**
  * Design a mutex using 2 variable method assuming operation ice happens atomically

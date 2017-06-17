@@ -1,4 +1,4 @@
-package com.interview.array;
+package array;
 
 /**
  * This solution is incorrect. It is greedy approach which will not work

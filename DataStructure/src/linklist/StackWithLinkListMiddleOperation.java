@@ -1,4 +1,4 @@
-package com.interview.linklist;
+package linklist;
 
 /**
  * http://www.geeksforgeeks.org/design-a-stack-with-find-middle-operation/

@@ -1,4 +1,4 @@
-package com.interview.dynamic;
+package dynamic;
 
 /**
  * http://www.geeksforgeeks.org/longest-even-length-substring-sum-first-second-half/

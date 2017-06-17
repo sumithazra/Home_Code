@@ -1,6 +1,6 @@
-package com.interview.number;
+package number;
 
-import com.interview.array.ArrayAddition;
+import array.ArrayAddition;
 
 public class ArrayMultiplication {
 

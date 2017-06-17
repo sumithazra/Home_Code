@@ -1,4 +1,4 @@
-package com.interview.linklist;
+package linklist;
 
 /**
  * Given a linklist which has individual sorted componenets sort the entire linst

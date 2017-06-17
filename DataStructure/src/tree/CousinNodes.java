@@ -1,4 +1,4 @@
-package com.interview.tree;
+package tree;
 
 import java.util.Deque;
 import java.util.LinkedList;

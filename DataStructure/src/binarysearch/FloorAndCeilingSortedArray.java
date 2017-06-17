@@ -1,4 +1,4 @@
-package com.interview.binarysearch;
+package binarysearch;
 
 /**
  * http://www.geeksforgeeks.org/search-floor-and-ceil-in-a-sorted-array/

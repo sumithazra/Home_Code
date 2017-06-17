@@ -1,4 +1,4 @@
-package com.interview.misc;
+package misc;
 
 import java.util.Map;
 import java.util.TreeMap;

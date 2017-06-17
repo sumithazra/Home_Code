@@ -1,4 +1,4 @@
-package com.interview.linklist;
+package linklist;
 
 /**
  * Date 04/17/2016

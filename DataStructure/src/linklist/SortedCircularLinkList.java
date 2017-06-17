@@ -1,4 +1,4 @@
-package com.interview.linklist;
+package linklist;
 
 /**
  * http://www.geeksforgeeks.org/sorted-insert-for-circular-linked-list/

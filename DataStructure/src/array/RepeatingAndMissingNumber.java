@@ -1,4 +1,4 @@
-package com.interview.array;
+package array;
 
 /**
  * http://www.geeksforgeeks.org/find-a-repeating-and-a-missing-number/

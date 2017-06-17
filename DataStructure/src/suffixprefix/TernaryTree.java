@@ -1,4 +1,4 @@
-package com.interview.suffixprefix;
+package suffixprefix;
 
 /**
  * http://www.geeksforgeeks.org/ternary-search-tree/

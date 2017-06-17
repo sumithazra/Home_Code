@@ -1,4 +1,4 @@
-package com.interview.graph;
+package graph;
 
 import java.util.Deque;
 import java.util.LinkedList;

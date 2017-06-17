@@ -1,4 +1,4 @@
-package com.interview.linklist;
+package linklist;
 
 /**
  * http://www.geeksforgeeks.org/quicksort-on-singly-linked-list/

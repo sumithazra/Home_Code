@@ -1,4 +1,4 @@
-package com.interview.number;
+package number;
 
 /**
  * http://www.geeksforgeeks.org/lucky-numbers/

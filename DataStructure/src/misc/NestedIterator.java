@@ -1,4 +1,4 @@
-package com.interview.misc;
+package misc;
 
 import java.util.Deque;
 import java.util.Iterator;

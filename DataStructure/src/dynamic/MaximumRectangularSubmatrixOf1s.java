@@ -1,6 +1,6 @@
-package com.interview.dynamic;
+package dynamic;
 
-import com.interview.stackqueue.MaximumHistogram;
+import stackqueue.MaximumHistogram;
 
 
 /**

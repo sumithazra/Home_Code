@@ -1,4 +1,4 @@
-package com.interview.binarysearch;
+package binarysearch;
 
 /**
  * Regular binary search

@@ -1,4 +1,4 @@
-package com.interview.array;
+package array;
 
 /**
  * Given an array of citations (each citation is a non-negative integer) of a researcher,

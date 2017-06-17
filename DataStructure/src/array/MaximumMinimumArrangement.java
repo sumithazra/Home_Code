@@ -1,4 +1,4 @@
-package com.interview.array;
+package array;
 
 /**
  * Date 04/16/2016

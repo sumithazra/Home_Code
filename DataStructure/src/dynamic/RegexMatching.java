@@ -1,4 +1,4 @@
-package com.interview.dynamic;
+package dynamic;
 /**
  * Date 06/24/2015
  * @author Tushar Roy

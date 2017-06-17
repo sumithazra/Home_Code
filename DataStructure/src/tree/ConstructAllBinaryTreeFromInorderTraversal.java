@@ -1,4 +1,4 @@
-package com.interview.tree;
+package tree;
 
 import java.util.ArrayList;
 import java.util.Collections;

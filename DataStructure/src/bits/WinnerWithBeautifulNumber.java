@@ -1,4 +1,4 @@
-package com.interview.bits;
+package bits;
 
 /**
  * http://www.careercup.com/question?id=5399897561890816

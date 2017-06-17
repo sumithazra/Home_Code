@@ -1,4 +1,4 @@
-package com.interview.number;
+package number;
 
 /**
  * 150qs hard section

@@ -1,4 +1,4 @@
-package com.interview.linklist;
+package linklist;
 
 /**
  * http://www.geeksforgeeks.org/given-linked-list-line-segments-remove-middle-points/

@@ -1,4 +1,4 @@
-package com.interview.dynamic;
+package dynamic;
 
 /**
  * Date 03/02/2016

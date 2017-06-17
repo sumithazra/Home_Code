@@ -1,4 +1,4 @@
-package com.interview.tree;
+package tree;
 
 /**
  * Date 03/08/2016

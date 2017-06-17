@@ -1,4 +1,4 @@
-package com.interview.tree;
+package tree;
 
 /**
  * http://www.geeksforgeeks.org/construct-a-special-tree-from-given-preorder-traversal/

@@ -1,4 +1,4 @@
-package com.interview.number;
+package number;
 
 /**
  * Number such that 11 + 11 = 22, 11 +22 = 33, 22 +33 = 55

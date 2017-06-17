@@ -1,4 +1,4 @@
-package com.interview.linklist;
+package linklist;
 
 import java.util.LinkedList;
 import java.util.Queue;

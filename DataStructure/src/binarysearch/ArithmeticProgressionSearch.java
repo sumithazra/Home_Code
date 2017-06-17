@@ -1,4 +1,4 @@
-package com.interview.binarysearch;
+package binarysearch;
 
 /**
  * http://www.careercup.com/question?id=4798365246160896

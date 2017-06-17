@@ -1,4 +1,4 @@
-package com.interview.misc;
+package misc;
 
 /**
  * There are n bulbs that are initially off. You first turn on all the bulbs.

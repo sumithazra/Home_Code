@@ -1,4 +1,4 @@
-package com.interview.binarysearch;
+package binarysearch;
 
 /**
  * http://www.geeksforgeeks.org/find-the-point-where-a-function-becomes-negative/

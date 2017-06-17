@@ -1,4 +1,4 @@
-package com.interview.tree;
+package tree;
 
 /**
  * Created by tushar_v_roy on 4/1/16.

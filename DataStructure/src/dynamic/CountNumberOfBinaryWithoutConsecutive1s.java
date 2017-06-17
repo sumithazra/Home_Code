@@ -1,4 +1,4 @@
-package com.interview.dynamic;
+package dynamic;
 
 /**
  * http://www.geeksforgeeks.org/count-number-binary-strings-without-consecutive-1s/

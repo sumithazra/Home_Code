@@ -1,4 +1,4 @@
-package com.interview.string;
+package string;
 
 import java.util.HashMap;
 import java.util.HashSet;

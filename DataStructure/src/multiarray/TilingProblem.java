@@ -1,4 +1,4 @@
-package com.interview.multiarray;
+package multiarray;
 
 /**
  * http://www.geeksforgeeks.org/divide-and-conquer-set-6-tiling-problem/

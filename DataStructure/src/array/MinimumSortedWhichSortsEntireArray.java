@@ -1,4 +1,4 @@
-package com.interview.array;
+package array;
 
 /**
  *http://www.geeksforgeeks.org/minimum-length-unsorted-subarray-sorting-which-makes-the-complete-array-sorted/

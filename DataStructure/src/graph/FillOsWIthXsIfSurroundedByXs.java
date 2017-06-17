@@ -1,4 +1,4 @@
-package com.interview.graph;
+package graph;
 
 /**
  * Date 04/17/2016

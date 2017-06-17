@@ -1,4 +1,4 @@
-package com.interview.random;
+package random;
 
 public class Rand7UsingRand5 {
 

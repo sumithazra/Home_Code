@@ -1,4 +1,4 @@
-package com.interview.tree;
+package tree;
 
 /**
  * http://cslibrary.stanford.edu/109/TreeListRecursion.html

@@ -1,4 +1,4 @@
-package com.interview.dynamic;
+package dynamic;
 
 /**
  * http://www.geeksforgeeks.org/how-to-print-maximum-number-of-a-using-given-four-keys/

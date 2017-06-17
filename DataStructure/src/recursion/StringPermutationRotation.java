@@ -1,4 +1,4 @@
-package com.interview.recursion;
+package recursion;
 
 public class StringPermutationRotation {
 

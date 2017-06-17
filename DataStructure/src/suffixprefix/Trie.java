@@ -1,4 +1,4 @@
-package com.interview.suffixprefix;
+package suffixprefix;
 
 import java.util.HashMap;
 import java.util.Map;

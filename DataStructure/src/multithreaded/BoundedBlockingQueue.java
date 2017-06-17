@@ -1,4 +1,4 @@
- package com.interview.multithreaded;
+ package multithreaded;
 
 import java.util.Optional;
 import java.util.concurrent.ExecutorService;

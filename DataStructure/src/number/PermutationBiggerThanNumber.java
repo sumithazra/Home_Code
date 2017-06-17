@@ -1,6 +1,6 @@
-package com.interview.number;
+package number;
 
-import com.interview.sort.QuickSort;
+import sort.QuickSort;
 
 /**
  * Date 02/17/2016

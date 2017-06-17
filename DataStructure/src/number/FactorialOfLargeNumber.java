@@ -1,4 +1,4 @@
-package com.interview.number;
+package number;
 
 /**
  * Date 03/14/2015

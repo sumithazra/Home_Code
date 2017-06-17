@@ -1,4 +1,4 @@
-package com.interview.recursion;
+package recursion;
 
 /**
  * Date 02/25/2016

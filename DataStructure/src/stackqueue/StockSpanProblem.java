@@ -1,4 +1,4 @@
-package com.interview.stackqueue;
+package stackqueue;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;

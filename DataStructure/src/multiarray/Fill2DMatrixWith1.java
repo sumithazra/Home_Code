@@ -1,4 +1,4 @@
-package com.interview.multiarray;
+package multiarray;
 
 /**
  * http://www.geeksforgeeks.org/a-boolean-matrix-question/

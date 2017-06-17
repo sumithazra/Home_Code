@@ -1,4 +1,4 @@
-package com.interview.string;
+package string;
 
 /**
  * https://leetcode.com/discuss/questions/oj/multiply-strings

@@ -1,4 +1,4 @@
-package com.interview.dynamic;
+package dynamic;
 
 /**
  * http://www.geeksforgeeks.org/dynamic-programming-set-13-cutting-a-rod/

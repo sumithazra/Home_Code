@@ -1,4 +1,4 @@
-package com.interview.misc;
+package misc;
 
 /**
  * Convert a roman number to decimal number

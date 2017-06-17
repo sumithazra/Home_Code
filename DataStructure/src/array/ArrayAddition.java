@@ -1,4 +1,4 @@
-package com.interview.array;
+package array;;
 
 public class ArrayAddition {
 

@@ -1,4 +1,4 @@
-package com.interview.dynamic;
+package dynamic;
 
 import java.util.HashSet;
 import java.util.Set;

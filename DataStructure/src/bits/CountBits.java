@@ -1,4 +1,4 @@
-package com.interview.bits;
+package bits;
 
 /**
  * http://www.geeksforgeeks.org/count-set-bits-in-an-integer/

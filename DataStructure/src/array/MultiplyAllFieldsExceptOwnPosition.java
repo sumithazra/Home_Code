@@ -1,4 +1,4 @@
-package com.interview.array;
+package array;
 
 /**
  * http://www.careercup.com/question?id=5179916190482432

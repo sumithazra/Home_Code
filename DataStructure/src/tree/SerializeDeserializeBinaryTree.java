@@ -1,4 +1,4 @@
-package com.interview.tree;
+package tree;
 
 import javax.swing.tree.TreeNode;
 import java.util.Deque;

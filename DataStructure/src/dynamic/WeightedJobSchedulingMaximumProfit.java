@@ -1,4 +1,4 @@
-package com.interview.dynamic;
+package dynamic;
 
 import java.util.Arrays;
 import java.util.Comparator;

@@ -1,4 +1,4 @@
-package com.interview.array;
+package array;
 
 /**
  * http://www.geeksforgeeks.org/rearrange-positive-and-negative-numbers-publish/

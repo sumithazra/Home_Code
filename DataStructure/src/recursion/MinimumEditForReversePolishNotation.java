@@ -1,4 +1,4 @@
-package com.interview.recursion;
+package recursion;
 
 /**
  *http://www.careercup.com/question?id=5762415492857856 

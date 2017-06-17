@@ -1,4 +1,4 @@
-package com.interview.misc;
+package misc;
 
 class Cordinate{
     int x;

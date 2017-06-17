@@ -1,4 +1,4 @@
-package com.interview.sort;
+package sort;
 
 import java.util.Arrays;
 import java.util.Comparator;

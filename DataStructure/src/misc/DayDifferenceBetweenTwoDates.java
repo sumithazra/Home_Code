@@ -1,4 +1,4 @@
-package com.interview.misc;
+package misc;
 
 /**
  * Number of days between two valid dates

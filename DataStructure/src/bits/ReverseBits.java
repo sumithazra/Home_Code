@@ -1,4 +1,4 @@
-package com.interview.bits;
+package bits;
 
 /**
  * http://www.geeksforgeeks.org/write-an-efficient-c-program-to-reverse-bits-of-a-number/

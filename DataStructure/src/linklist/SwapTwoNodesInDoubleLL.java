@@ -1,4 +1,4 @@
-package com.interview.linklist;
+package linklist;
 
 /**
  * Swap two nodes in double link list. If it swaps first node its callers responsibility to fix the head 

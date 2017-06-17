@@ -1,4 +1,4 @@
-package com.interview.number;
+package number;
 
 /**
  * You are given an array of n elements [1,2,....n]. For example {3,2,1,6,7,4,5}. Now we create a signature of this

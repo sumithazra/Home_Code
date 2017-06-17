@@ -1,4 +1,4 @@
-package com.interview.tree;
+package tree;
 
 /**
  * http://www.geeksforgeeks.org/sorted-order-printing-of-an-array-that-represents-a-bst/

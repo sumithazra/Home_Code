@@ -1,4 +1,4 @@
-package com.interview.linklist;
+package linklist;
 
 import java.util.Iterator;
 import java.util.List;

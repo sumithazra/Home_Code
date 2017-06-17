@@ -1,4 +1,4 @@
-package com.interview.tree;
+package tree;
 
 class Index{
     int index;

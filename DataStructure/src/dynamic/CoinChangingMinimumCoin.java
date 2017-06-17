@@ -1,4 +1,4 @@
-package com.interview.dynamic;
+package dynamic;
 
 import java.text.Format;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package com.interview.random;
+package random;
 
 /**
  * Shuffle deck of cards

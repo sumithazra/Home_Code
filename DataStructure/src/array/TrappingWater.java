@@ -1,4 +1,4 @@
-package com.interview.array;
+package array;
 /**
  * References
  * https://oj.leetcode.com/problems/trapping-rain-water/

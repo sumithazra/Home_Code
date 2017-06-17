@@ -1,4 +1,4 @@
-package com.interview.multiarray;
+package multiarray;
 
 /**
  * Date 07/31/2016

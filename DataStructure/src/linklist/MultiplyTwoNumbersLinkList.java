@@ -1,4 +1,4 @@
-package com.interview.linklist;
+package linklist;
 
 /**
  * Multiply two numbers in form of link list

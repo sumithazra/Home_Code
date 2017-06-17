@@ -1,4 +1,4 @@
-package com.interview.multithreaded;
+package multithreaded;
 
 import java.util.Queue;
 import java.util.concurrent.ConcurrentHashMap;

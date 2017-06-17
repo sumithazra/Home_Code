@@ -1,4 +1,4 @@
-package com.interview.multiarray;
+package multiarray;
 
 public class MatrixCalculation {
 

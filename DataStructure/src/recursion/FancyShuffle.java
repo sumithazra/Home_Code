@@ -1,4 +1,4 @@
-package com.interview.recursion;
+package recursion;
 
 import java.util.HashMap;
 import java.util.Map;

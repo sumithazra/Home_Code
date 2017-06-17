@@ -1,4 +1,4 @@
-package com.interview.dynamic;
+package dynamic;
 
 /**
  * Finding the number of ways a given score could be reached for a game with 3 different ways of scoring (e.g. 3, 5 and 10 points).

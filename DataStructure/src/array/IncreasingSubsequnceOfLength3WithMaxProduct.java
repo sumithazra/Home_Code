@@ -1,4 +1,4 @@
-package com.interview.array;
+package array;
 
 /**
  * http://www.geeksforgeeks.org/increasing-subsequence-of-length-three-with-maximum-product/

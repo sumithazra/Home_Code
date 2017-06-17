@@ -1,4 +1,4 @@
-package com.interview.graph;
+package graph;
 
 /**
  http://www.geeksforgeeks.org/find-number-of-islands/

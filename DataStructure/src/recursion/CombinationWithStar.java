@@ -1,4 +1,4 @@
-package com.interview.recursion;
+package recursion;
 
 /**
  * e.g a, b c 

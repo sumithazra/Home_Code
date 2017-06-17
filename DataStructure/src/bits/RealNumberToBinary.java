@@ -1,4 +1,4 @@
-package com.interview.bits;
+package bits;
 
 /**
  * Exercise 5.2 150 qs

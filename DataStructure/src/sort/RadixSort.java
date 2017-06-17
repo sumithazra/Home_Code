@@ -1,4 +1,4 @@
-package com.interview.sort;
+package sort;
 
 public class RadixSort {
 

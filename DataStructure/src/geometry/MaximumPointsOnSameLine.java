@@ -1,4 +1,4 @@
-package com.interview.geometry;
+package geometry;
 
 import java.util.HashMap;
 import java.util.Map;

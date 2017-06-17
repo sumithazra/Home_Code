@@ -1,4 +1,4 @@
-package com.interview.linklist;
+package linklist;
 
 /*
  * http://www.geeksforgeeks.org/maximum-sum-linked-list-two-sorted-linked-lists-common-nodes/

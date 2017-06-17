@@ -1,4 +1,4 @@
-package com.interview.recursion;
+package recursion;
 
 import java.util.Deque;
 import java.util.LinkedList;

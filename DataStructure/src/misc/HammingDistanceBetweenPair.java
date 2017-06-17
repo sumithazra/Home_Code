@@ -1,4 +1,4 @@
-package com.interview.misc;
+package misc;
 
 /**
  * http://www.glassdoor.com/Interview/-a-first-write-a-function-to-calculate-the-hamming-distance-between-two-binary-numbers-b-write-a-function-that-takes-QTN_450885.htm

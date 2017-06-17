@@ -1,4 +1,4 @@
-package com.interview.number;
+package number;
 
 /**
  * http://www.careercup.com/question?id=4857362737266688

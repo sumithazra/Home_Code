@@ -1,4 +1,4 @@
-package com.interview.number;
+package number;
 
 /**
  * Babylonian method for calculating square root

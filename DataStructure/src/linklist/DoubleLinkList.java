@@ -1,4 +1,4 @@
-package com.interview.linklist;
+package linklist;
 
 public class DoubleLinkList {
 

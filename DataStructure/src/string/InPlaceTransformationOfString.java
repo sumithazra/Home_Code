@@ -1,4 +1,4 @@
-package com.interview.string;
+package string;
 
 /**
  * http://www.geeksforgeeks.org/an-in-place-algorithm-for-string-transformation/

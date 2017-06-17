@@ -1,4 +1,4 @@
-package com.interview.playground;
+package playground;
 
 import java.util.Random;
 

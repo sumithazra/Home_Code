@@ -1,4 +1,4 @@
-package com.interview.bits;
+package bits;
 
 /**
  * http://www.geeksforgeeks.org/next-power-of-2/

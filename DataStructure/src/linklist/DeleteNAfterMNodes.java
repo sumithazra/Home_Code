@@ -1,4 +1,4 @@
-package com.interview.linklist;
+package linklist;
 
 /**
  * http://www.geeksforgeeks.org/delete-n-nodes-after-m-nodes-of-a-linked-list/

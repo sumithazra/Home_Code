@@ -1,4 +1,4 @@
-package com.interview.sort;
+package sort;
 
 /**
  * http://en.wikipedia.org/wiki/Merge_sort

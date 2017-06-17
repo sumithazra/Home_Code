@@ -1,4 +1,4 @@
-package com.interview.bits;
+package bits;
 
 class Pair{
     int x;

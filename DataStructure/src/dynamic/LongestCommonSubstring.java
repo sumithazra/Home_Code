@@ -1,4 +1,4 @@
-package com.interview.dynamic;
+package dynamic;
 
 /**
  * http://en.wikipedia.org/wiki/Longest_common_substring_problem

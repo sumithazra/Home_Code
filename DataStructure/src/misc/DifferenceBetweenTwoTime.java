@@ -1,4 +1,4 @@
-package com.interview.misc;
+package misc;
 
 /**
  * Given two times in four digits number e.g 10:10 is 1010 find difference between them

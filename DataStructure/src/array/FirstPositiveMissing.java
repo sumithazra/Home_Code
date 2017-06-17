@@ -1,4 +1,4 @@
-package com.interview.array;
+package array;
 
 /**
  * https://leetcode.com/problems/first-missing-positive/

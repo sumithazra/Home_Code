@@ -1,4 +1,4 @@
-package com.interview.tree;
+package tree;
 
 /**
  * http://www.geeksforgeeks.org/construct-tree-from-given-inorder-and-preorder-traversal/

@@ -1,4 +1,4 @@
-package com.interview.number;
+package number;
 
 /**
  * Write a program to determine whether n/2 distinctive pairs can be formed 

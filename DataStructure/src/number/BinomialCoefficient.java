@@ -1,4 +1,4 @@
-package com.interview.number;
+package number;
 
 /**
  * http://www.geeksforgeeks.org/space-and-time-efficient-binomial-coefficient/

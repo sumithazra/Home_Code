@@ -1,4 +1,4 @@
-package array;
+package array;;
 
 public class ArrayProgram {
 

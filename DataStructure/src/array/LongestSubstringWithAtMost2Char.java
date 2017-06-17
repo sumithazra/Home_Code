@@ -1,4 +1,4 @@
-package com.interview.array;
+package array;
 
 /**
  * Longest Substring with At Most Two Distinct Characters

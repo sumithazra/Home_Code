@@ -1,4 +1,4 @@
-package com.interview.bits;
+package bits;
 
 /**
  * Date 04/03/2016

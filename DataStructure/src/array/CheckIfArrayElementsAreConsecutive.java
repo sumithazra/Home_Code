@@ -1,4 +1,4 @@
-package com.interview.array;
+package array;
 
 /**
  * http://www.geeksforgeeks.org/check-if-array-elements-are-consecutive/

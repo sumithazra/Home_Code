@@ -1,4 +1,4 @@
-package com.interview.number;
+package number;
 
 /**
  * 150 qs 18.4

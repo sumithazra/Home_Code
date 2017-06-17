@@ -1,4 +1,4 @@
-package com.interview.tree;
+package tree;
 
 import com.interview.bits.NextPowerOf2;
 

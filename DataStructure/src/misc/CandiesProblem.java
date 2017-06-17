@@ -1,4 +1,4 @@
-package com.interview.misc;
+package misc;
 
 /**
  * Date 2/7/16

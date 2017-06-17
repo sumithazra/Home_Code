@@ -1,4 +1,4 @@
-package com.interview.linklist;
+package linklist;
 
 /**
  * http://www.geeksforgeeks.org/function-to-check-if-a-singly-linked-list-is-palindrome/ 

@@ -1,4 +1,4 @@
-package com.interview.suffixprefix;
+package suffixprefix;
 
 import java.util.ArrayList;
 import java.util.List;

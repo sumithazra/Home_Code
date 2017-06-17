@@ -1,4 +1,4 @@
-package com.interview.multithreaded;
+package multithreaded;
 
 import java.util.ArrayList;
 import java.util.List;

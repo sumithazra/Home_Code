@@ -1,4 +1,4 @@
-package com.interview.array;
+package array;
 
 /**
  * Created by tushar_v_roy on 3/10/16.

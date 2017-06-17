@@ -1,4 +1,4 @@
-package com.interview.number;
+package number;
 
 /**
  * GCD greatest common divisor

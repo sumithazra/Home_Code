@@ -1,4 +1,4 @@
-package com.interview.stackqueue;
+package stackqueue;
 
 import java.util.Collections;
 import java.util.PriorityQueue;

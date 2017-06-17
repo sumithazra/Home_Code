@@ -1,4 +1,4 @@
-package com.interview.string;
+package string;
 
 /**
  * Date 04/09/2016

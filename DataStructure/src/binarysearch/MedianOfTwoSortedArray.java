@@ -1,4 +1,4 @@
-package com.interview.binarysearch;
+package binarysearch;
 
 /**
  * http://www.geeksforgeeks.org/median-of-two-sorted-arrays/

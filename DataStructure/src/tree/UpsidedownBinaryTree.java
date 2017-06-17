@@ -1,4 +1,4 @@
-package com.interview.tree;
+package tree;
 
 /**
  * Given a binary tree where all the right nodes are either leaf nodes with a sibling (a left node that

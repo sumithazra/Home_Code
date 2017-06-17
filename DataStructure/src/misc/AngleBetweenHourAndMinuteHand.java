@@ -1,4 +1,4 @@
-package com.interview.misc;
+package misc;
 
 /**
  * Find small angle between hour and minute hand in analog clock

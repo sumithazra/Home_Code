@@ -1,4 +1,4 @@
-package com.interview.string;
+package string;
 
 /**
  * Remove consecutive duplicate characters
