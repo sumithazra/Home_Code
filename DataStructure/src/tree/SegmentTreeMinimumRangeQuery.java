@@ -1,6 +1,6 @@
 package tree;
 
-import com.interview.bits.NextPowerOf2;
+import bits.NextPowerOf2;
 
 /**
  * Date 08/22/2015

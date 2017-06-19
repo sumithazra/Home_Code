@@ -1,4 +1,4 @@
-package com.interview.string;
+package string;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -8,7 +8,7 @@ import java.util.Map;
  * @author Tushar Roy
  *
  * Given a string, find the length of the longest substring T that contains at most k distinct characters.
- * For example, Given s = “eceba” and k = 2,
+ * For example, Given s =  and k = 2,
  * T is "ece" which its length is 3.
  *
  * Time complexity O(n)
