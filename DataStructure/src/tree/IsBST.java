@@ -79,9 +79,17 @@ public class IsBST {
         root = bt.addNode(17, root);
         root = bt.addNode(20, root);
         root = bt.addNode(0, root);
-        
+/*    
+            10
+            / \
+           0   15
+          /      \
+        -10       17
+                   \
+                    20
+*/                    
         IsBST isBST = new IsBST();
-        assert isBST.isBST(root);
-        assert isBST.isBSTIterative(root);
+        System.out.println( isBST.isBST(root));
+        System.out.println(isBST.isBSTIterative(root));
     }
 }
